@@ -42,7 +42,6 @@ const List = connect(mapStateToProps)(MessageList)
 
 // ReactDOM.render(<MessageForm/>,document.getElementById('root'))
 
-
 class InputMessage extends React.Component {
     constructor(props){
         super(props)
