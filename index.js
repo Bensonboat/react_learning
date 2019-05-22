@@ -10,6 +10,7 @@ const data = {
   ]
 }
 
+
 const addMessage = article => ({ type:'addMessage', payload: article})
 
 const rootReducer = (state = data, action) => {
